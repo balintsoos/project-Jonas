@@ -1,0 +1,156 @@
+
+html * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+html, body {
+	width: 100%;
+	height: 100%;
+	background-repeat: repeat;
+	font-family: Arial, sans-serif;
+	font-size : 1.05em;
+
+	-webkit-touch-callout: none;
+	-webkit-user-select: none;
+	-khtml-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
+	user-select: none;
+}
+
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	height: 50px;
+	text-align: right;
+}
+
+header button {
+	margin-top: 8px;
+	margin-right: 10px;
+}
+
+header span {
+	margin-right: 10px;
+}
+
+h1, nav {
+	margin: auto;
+	text-align: center;
+}
+
+h1 {
+	padding: 60px;
+	font-size: 3.4em;
+	text-decoration: underline;
+}
+
+h2 {
+	font-size: 3em;
+	margin-bottom: 50px;
+}
+
+ul {
+	list-style-type: none;
+}
+
+button {
+	width: 100px;
+	height: 33px;
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+
+#themes {
+	list-style-type: circle;
+	padding-left: 20px; 
+}
+
+.button, .panel, input[type="text"], select {
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	border-radius: 10px;
+}
+
+.button, .panel {
+	width: 300px;
+	padding: 10px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.button {
+	font-size: 2em;
+	margin-top: 15px;
+	cursor: pointer;
+	transition: all 0.4s;
+}
+
+#settingsPanel {
+	text-align: left;
+	padding: 20px;
+}
+
+input[type="text"], select {
+	margin: 5px;
+	padding: 3px;
+	background-color: transparent;
+	text-align: center;
+	transition: box-shadow 0.2s;
+}
+
+#errors {
+	list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+	color: red;
+}
+
+.keybs {
+	margin: 0 auto;
+}
+
+#play {
+	width: 100%;
+	height: 90%;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#level, #points, #teleports {
+	margin: 0 auto;
+	text-align: center;
+}
+
+#board, #board td {
+	border-collapse: collapse;
+	text-align: center;
+	vertical-align: middle;
+}
+
+#board {
+	margin-top: 0;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 20px;
+}
+
+#board td {
+	width: 50px;
+	height: 50px;
+	background-size: 90%;
+	background-position: center center;
+	background-repeat: no-repeat;
+}

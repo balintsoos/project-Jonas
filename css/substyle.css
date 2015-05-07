@@ -1,0 +1,110 @@
+
+*, *::after, *::before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+html * {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	outline: 0;
+
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: "Open sans", sans-serif;
+	background-image: url("../skins/bg.png");
+	font-size : 1.05em;
+	background-repeat: repeat;
+}
+
+li {
+	list-style-type: none;
+}
+
+a, a:visited, a:hover, a:active {
+	color: #F4452E;
+}
+
+#card {
+	position: relative;
+	top: 30px;
+	width: 400px;
+	margin: auto auto;
+	background-color: #eee;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	text-align: center;
+
+	-webkit-box-shadow: 10px 10px 35px -4px rgba(0,0,0,0.75);
+	-moz-box-shadow: 10px 10px 35px -4px rgba(0,0,0,0.75);
+	box-shadow: 10px 10px 35px -4px rgba(0,0,0,0.75);
+}
+
+#card header {
+	text-align: center;
+	padding: 15px;
+	border-bottom: 1px solid #F4452E;
+}
+
+#card div {
+	padding: 15px;
+}
+
+table {
+	margin: 0 auto;
+	text-align: left;
+}
+
+input[type="text"], 
+input[type="email"], 
+input[type="password"] {
+	padding: 8px;
+	border: 1px solid #cfd9db;
+	background-color: #ffffff;
+	border-radius: .25em;
+	box-shadow: inset 0 1px 1px rgba(0, 0, 0, 0.08);
+	transition: all 0.3s;
+}
+
+input[type="text"]:focus, 
+input[type="email"]:focus, 
+input[type="password"]:focus {
+	outline: none;
+	border-color: #F4452E;
+	box-shadow: 0 0 5px rgba(44, 151, 222, 0.2);
+}
+
+li {
+	color: #F4452E;
+}
+
+#spanreg {
+	font-size: 0.7em;
+}
+
+input[type="submit"] {
+	width: 150px;
+	margin: 15px;
+	padding: 10px;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background-color: #F4452E;
+	color: white;
+	transition: all 0.3s;
+	cursor: pointer;
+}
+input[type="submit"]:hover {
+	background-color: #cb210b;
+}
+
+input[type="submit"]:focus {
+	box-shadow: 0 0 8px 0px #F4452E;
+}

@@ -1,0 +1,26 @@
+{
+	"default":{
+		"name": "Jonas and the Robots",
+		"bg": "skins/bg.png",
+		"color": "#eee",
+		"invert": "#F4452E",
+		"player": "skins/jonas.png",
+		"bot": "skins/bot.png"
+	},
+	"starwars":{
+		"name": "Star Wars",
+		"bg": "skins/space-pattern.jpg",
+		"color": "#E5E55B",
+		"invert": "black",
+		"player": "skins/mf.png",
+		"bot": "skins/tie.png"
+	},
+	"ironman":{
+		"name": "Iron Man",
+		"bg": "skins/ironman.jpg",
+		"color": "#AF1F24",
+		"invert": "#FFE744",
+		"player": "",
+		"bot": ""
+	}
+}
