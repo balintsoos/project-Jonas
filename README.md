@@ -1,2 +1,2 @@
 # Jonas and the Robots
-A frontend game built with vanilla JS and PHP
+A little game built with vanilla JS and PHP
